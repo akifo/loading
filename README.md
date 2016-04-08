@@ -5,6 +5,13 @@ jquery
 
 ## how to use
 
+First loading files
+
+```
+<link rel="stylesheet" href="loading.css">
+<script src="loading.min.js"></script>
+```
+
 stat loading view
 
 ```
@@ -18,7 +25,7 @@ Loading.start();
 ```
 
 
-### Methods
+## Methods
 
 | method | means |
 |:---|:---|
@@ -36,6 +43,14 @@ jqueryに依存します
 
 ## 使い方
 
+まず、ファイルを読み込んでください。
+
+```
+<link rel="stylesheet" href="loading.css">
+<script src="loading.min.js"></script>
+```
+
+
 ローディング画面を表示させる
 
 ```
@@ -48,7 +63,7 @@ Loading.start();
 Loading.stop();
 ```
 
-### メソッド一覧
+## メソッド一覧
 
 | メソッド | 内容 |
 |:---|:---|
